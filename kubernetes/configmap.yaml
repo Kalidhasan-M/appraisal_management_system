@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ams-config
+data:
+  APP_ENV: "production"
+  DB_HOST: "ams-mysql"
+  DB_DATABASE: "appraisal_management"
+  DB_PORT: "3306"
